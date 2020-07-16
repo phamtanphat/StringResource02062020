@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#C5C8CD"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,13 +13,13 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Đăng nhập hệ thống" />
+        android:text="@string/label_title" />
 
     <TextView
         android:textColor="#AB47BC"
         android:layout_marginTop="10dp"
         style="@style/AppStyle.TextView.Title"
-        android:text="Tài khoản"/>
+        android:text="@string/label_account"/>
     <EditText
         android:id="@+id/edittextTaikhoan"
         android:layout_marginTop="10dp"
@@ -31,7 +29,7 @@
         android:textColor="#AB47BC"
         style="@style/AppStyle.TextView.Title"
         android:layout_marginTop="10dp"
-        android:text="Mật khẩu"/>
+        android:text="@string/label_password"/>
     <EditText
         android:id="@+id/edittextMatkhau"
         android:layout_marginTop="10dp"
@@ -39,7 +37,7 @@
         android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/buttonDangnhap"
-        android:text="Đăng nhập"
+        android:text="@string/label_login"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:layout_width="wrap_content"

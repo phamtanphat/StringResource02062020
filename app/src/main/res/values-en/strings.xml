@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StringResource02062020</string>
+    <string name="label_title">Login System</string>
+    <string name="label_account">Account</string>
+    <string name="label_password">Password</string>
+    <string name="label_login">Login</string>
+</resources>
